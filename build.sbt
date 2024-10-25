@@ -7,9 +7,9 @@ lazy val root = project in file(".")
 
 scalaVersion := "2.12.20"
 
-libraryDependencies += "org.flinkextended" %% "flink-scala-api" % "1.19.1_1.1.7"
-libraryDependencies += "org.apache.flink" % "flink-streaming-java" % "1.19.1" classifier "tests"
-libraryDependencies += "org.apache.flink" % "flink-test-utils" % "1.19.1"
+libraryDependencies += "org.flinkextended" %% "flink-scala-api" % "1.20.0_1.2.0"
+libraryDependencies += "org.apache.flink" % "flink-streaming-java" % "1.20.0" classifier "tests"
+libraryDependencies += "org.apache.flink" % "flink-test-utils" % "1.20.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.19"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.5.6"
 
